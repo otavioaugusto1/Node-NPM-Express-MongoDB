@@ -1,0 +1,5 @@
+const multiplicacao = require("./mod")
+const Cachorro = require("./mod2")
+console.log(multiplicacao(2,2))
+const cachorro1 = new Cachorro("Malbeque")
+console.log(cachorro1.nome)
